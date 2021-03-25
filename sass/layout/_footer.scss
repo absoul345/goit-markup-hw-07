@@ -1,0 +1,140 @@
+.footer {
+    background-color: var(--second-background);
+  }
+  
+  .footer-wrapper {
+    display: block;
+  
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+  }
+  
+  .footer-flex {
+    display: flex;
+  }
+  
+  
+  .footer-address {
+    color: var(--white-color);
+  
+    width: 231px;
+  
+    margin-bottom: 9px;
+  
+    line-height: 1.71;
+  
+    font-style: inherit;
+  }
+  
+  .footer-list .footer-contacts-item + .footer-contacts-item {
+    margin-top: 9px;
+  }
+  
+  .footer-contacts {
+    color: var(--contacts-footer);
+  
+    text-decoration: none;
+  }
+// _____________Social-section_________________
+
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 20px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  text-align: start;
+}
+
+  .footer-social-section {
+    display: block;
+    margin: 72px 0px 72px 70px;
+  }
+
+  .footer-social-item {
+    &:not(:last-child) {
+      margin-right: 10px;
+     }
+    
+  }
+  
+  .footer-social-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-social-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 20px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+
+.footer-social-list-icon {
+  width: 20px;
+  height: 20px;
+
+  fill: var(--white-color);
+
+  transition-property: fill,background-fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+ .gray-theme {
+  background-color: #44454E;
+}
+
+
+
+// _______________Footer-submit______________
+  .footer-submit {
+    margin: 72px 215px 94px 93px;
+  }
+  
+  .submit-form {
+   display: flex;
+  }
+  
+  
+  
+  .submit-input {
+    width: 358px;
+    height: 50px;
+  
+    margin-right: 12px;
+    padding: 15px 16px;
+  
+    background-color: var(--second-background);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--white-color);
+
+    &:focus {
+      outline: none;
+      border-color: var(--accent-color);
+    }
+    
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  
+  
+  .submit-form-icon {
+    width: 24px;
+    height: 24px;
+  
+    margin-left: 10px;
+  
+    fill: var(--white-color);
+  }
+  
+  

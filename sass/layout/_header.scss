@@ -1,0 +1,166 @@
+
+  
+  .header-section {
+    background-color: var(--white-color);
+    padding: 32px 0;
+
+    & .container {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  .border {
+    border-bottom: 1px solid #ececec;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-left: 93px;
+  }
+  
+  .nav-item {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+
+
+  
+  .nav-title-link {
+    color: var(--title-text-color);
+  
+    padding: 39px 0;
+  
+    font-weight: 500;
+    line-height: 1.14;
+  
+    letter-spacing: 0.02em;
+  
+    text-decoration: none;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+    
+      display: block;
+      width: 100%;
+      height: 4px;
+      background-color: var(--accent-color);
+      left: 0;
+      bottom: 0;
+    
+      opacity: 0;
+    
+      transition-property: opacity;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    
+    &:hover::after {
+      opacity: 1;
+    }
+  
+  }
+  
+  .nav-link-hover {
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
+  }
+  
+  
+  
+  .current {
+    color: var(--accent-color);
+    &::after {
+      opacity: 1;
+    }
+  }
+  
+ 
+  
+  
+  .contacts-list {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+
+    & .link:hover,
+    & .link:focus {
+      color: var(--accent-color);
+    }
+  }
+  
+  .contacts-item {
+    .contacts-list & + & {
+      margin-left: 50px;
+    }
+  }
+ 
+  
+  .contacts-link {
+    color: var(--primery-text-color);
+    display: flex;
+  
+    font-weight: 500;
+  
+    line-height: 1.14;
+  
+    letter-spacing: 0.02em;
+  
+    text-decoration: none;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+  
+  .svg-mail {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    align-items: center;
+  
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .contacts-link:hover &,
+    .contacts-link:focus & {
+      fill: var(--accent-color);
+    }
+  
+  }
+  
+  .svg-tell {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    align-items: center;
+  
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    .contacts-link:hover &,
+    .contacts-link:focus & {
+    fill: var(--accent-color)
+    }
+  }
+  
