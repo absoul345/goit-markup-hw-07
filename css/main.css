@@ -634,8 +634,8 @@ img {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero.jpg);
   background-color: #c4c4c4;
   background-repeat: no-repeat;
   background-position: center;
@@ -669,19 +669,19 @@ img {
 }
 
 .advantages-item.antenna::before {
-  background-image: url(../images/antenna1.svg);
+  background-image: url(../images/sprite/antenna1.svg);
 }
 
 .advantages-item.clock::before {
-  background-image: url(../images/clock1.svg);
+  background-image: url(../images/sprite/clock1.svg);
 }
 
 .advantages-item.diagram:before {
-  background-image: url(../images/diagram1.svg);
+  background-image: url(../images/sprite/diagram1.svg);
 }
 
 .advantages-item.astronaut:before {
-  background-image: url(../images/astronaut1.svg);
+  background-image: url(../images/sprite/astronaut1.svg);
 }
 
 .advantages-title {

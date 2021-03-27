@@ -21,19 +21,19 @@
     }
 
     &.antenna::before {
-      background-image: url(../images/antenna1.svg);
+      background-image: url(../images/sprite/antenna1.svg);
     }
     
     &.clock::before {
-      background-image: url(../images/clock1.svg);
+      background-image: url(../images/sprite/clock1.svg);
     }
     
     &.diagram:before {
-    background-image: url(../images/diagram1.svg);
+    background-image: url(../images/sprite/diagram1.svg);
     }
     
     &.astronaut:before {
-      background-image: url(../images/astronaut1.svg);
+      background-image: url(../images/sprite/astronaut1.svg);
     }
   }
   
