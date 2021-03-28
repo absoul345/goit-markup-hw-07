@@ -169,7 +169,7 @@
       margin-right: 8px;
       width: 16px;
       height: 15px;
-      background-image: url(../images/quarter.svg);
+      background-image: url("../images/sprite/quarter.svg");
       
       transition-property: background-image;
       transition-duration: 250ms;
@@ -178,7 +178,7 @@
 
     .modal-form-term:checked + &::before {
       border: none;
-      background-image: url(../images/iconcheck.svg);
+      background-image: url("../images/sprite/iconcheck.svg");
     }
     
   }
